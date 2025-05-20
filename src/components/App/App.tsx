@@ -44,7 +44,7 @@ const App: React.FC = () => {
           positiveRate={positiveRate}
         />
       ) : (
-        <Notification message="No feedback yet"/>
+        <Notification />
       )}
     </div>
   );
